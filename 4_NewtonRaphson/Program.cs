@@ -11,6 +11,10 @@ namespace _4_NewtonRaphson
             Console.WriteLine("Derivada f'(x) = (x+1)/x^2");
             Console.WriteLine("Error: 0.001");
             Console.WriteLine("Valor inicial x = 2");
+            for(int i=0;i<12;i++){
+                Console.Write("*-*-*-");
+            }
+            Console.WriteLine("");
 
             double xi = 2;
             double Fxi = Math.Log(xi) - (1/xi);

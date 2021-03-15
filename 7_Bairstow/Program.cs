@@ -17,6 +17,10 @@ namespace _7_Bairstow
             Console.WriteLine("deltr = (c3b0 - c2b1)/(c2^2 - c1c3)");
             Console.WriteLine("delts = (c1b1 - c2b0)/(c2^2 - c1c3)");
             Console.WriteLine("x = r +- sqrt(r^2 + 4s) / 2");
+            for(int i=0;i<12;i++){
+                Console.Write("*-*-*-");
+            }
+            Console.WriteLine("");
 
             double a0 = -10;
             double a1 = -1;

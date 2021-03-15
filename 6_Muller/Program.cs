@@ -16,6 +16,10 @@ namespace _6_Muller
             Console.WriteLine("a = ((sig1 - sig0)/(h1 - h0))");
             Console.WriteLine("b = ah1 + sig1");
             Console.WriteLine("c = f(x2)");
+            for(int i=0;i<12;i++){
+                Console.Write("*-*-*-");
+            }
+            Console.WriteLine("");
 
             double x0 = 1;
             double x1 = 2;

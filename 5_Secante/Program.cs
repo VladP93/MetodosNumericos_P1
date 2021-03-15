@@ -11,6 +11,10 @@ namespace _5_Secante
             Console.WriteLine("xi+1 = xi - (f(x1) * (xi-1 - xi))/(f(xi-1) - f(xi))");
             Console.WriteLine("Valor inicial xi-1 = 0");
             Console.WriteLine("Valor inicial xi = 1");
+            for(int i=0;i<12;i++){
+                Console.Write("*-*-*-");
+            }
+            Console.WriteLine("");
 
             double xi_m1 = 0;
             double xi = 1;

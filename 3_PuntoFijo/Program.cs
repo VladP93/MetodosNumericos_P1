@@ -6,6 +6,7 @@ namespace _3_PuntoFijo
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Metodo de punto fijo");
             Console.WriteLine("La velocidad V de un paracaidista está dada por la formula:");
             Console.WriteLine("V = gx/c * (1-e^-(c*t/x))\n");
             Console.WriteLine("g = 9.8 m/s^2  ->  gravedad terrestre");
@@ -14,11 +15,12 @@ namespace _3_PuntoFijo
             Console.WriteLine("x = Masa del paracaidista en Kg\n");
             Console.WriteLine("Cuando transcurrienron 7 segundos se detectó que la velocidad es de 35m/s");
             Console.WriteLine("Determina la masa del paracaidista con Error=0.001");
-
             for(int i=0;i<12;i++){
                 Console.Write("*-*-*-");
             }
-            Console.WriteLine("\nDespejando x:");
+            Console.WriteLine("");
+            
+            Console.WriteLine("Despejando x:");
             Console.WriteLine("x = 490/(9.81(1-e^-(98/xi)))");
             Console.WriteLine("Donde xi = 63");
 
@@ -27,6 +29,7 @@ namespace _3_PuntoFijo
             double errorAdmitido = 0.001;
             double err = 0;
 
+            Console.WriteLine("Error: "+err);
             do{
                 xi = x;
                 x = 490/(9.81*(1 - (Math.Pow(Math.E, (-98/xi)))));

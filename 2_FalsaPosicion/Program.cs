@@ -6,11 +6,14 @@ namespace _2_FalsaPosicion
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Método de la bisección");
+            Console.WriteLine("Método de la falsa posición");
             Console.WriteLine("Ecuación -> sen(x) +2x - 1 = 0");
             Console.WriteLine("Intérvalos: [-2,2]");
             Console.WriteLine("Error: 10^(-3) = 0.001");
-            Console.WriteLine("-------------------------------");
+            for(int i=0;i<12;i++){
+                Console.Write("*-*-*-");
+            }
+            Console.WriteLine("");
 
             double a=-2;
             double b=2;
